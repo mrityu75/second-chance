@@ -1,0 +1,13 @@
+# Data files are private UNOS data — never commit
+data/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Screenshots are kept (they're the demo) — do not ignore static/*.png
